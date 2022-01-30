@@ -6,7 +6,7 @@
         margin: 0 auto;
     }
 
-    .slick-prev, .slick-next {
+    .prev, .next {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -18,8 +18,26 @@
             height: 50px;
         }
     }
-    .slick-next {
+    .next {
         right: -70px;
         left: auto;
     }
+    .tns-item {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    .tns-nav {
+        button {
+            background-color: red;
+        }
+        /* .tns-nav-active {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+        } */
+    }
+
 }
