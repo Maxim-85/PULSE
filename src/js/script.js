@@ -14,9 +14,9 @@
 			}
 		]
 	  });
-}); */
+}); */  /* для slick */
 
-let slider = tns({
+/* let slider = tns({
     container: '.carousel__inner',
     items: 1,
     slideBy: 'page',
@@ -31,4 +31,24 @@ let slider = tns({
 
   document.querySelector('.next').addEventListener('click', function () {
 	slider.goTo('next');
+  }); */ /* для tiny-slider */
+
+  $(document).ready(function(){
+	$(".owl-carousel").owlCarousel({
+		loop:true,
+		items: 1,
+		nav:true,
+		navText: [
+			'<img src="icons/left.svg">',
+			'<img src="icons/right.svg">'
+			/* '<img src="icons/left.svg">',
+			'<img src="icons/right.svg">' */
+		] ,
+		autoplay:true,
+		autoplayTimeout:3000, 
+		autoplayHoverPause:false,
+		responsive:{
+					
+		}
+	});
   });

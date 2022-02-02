@@ -7,7 +7,7 @@
 	"trailing": true,
 	"curly": true,
 	"strict": false,
-	"browser": true,
+	"browser": true, 
 	"devel": true,
 	"jquery": true,
     "esversion": 9,

@@ -6,7 +6,11 @@
         margin: 0 auto;
     }
 
-    .prev, .next {
+.owl-naw {
+    position: absolute;
+}
+button
+    .owl-prev, .owl-next {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -17,12 +21,13 @@
             width: 31px;
             height: 50px;
         }
-    }
-    .next {
+}
+button
+    .owl-next {
         right: -70px;
         left: auto;
-    }
-    .tns-item {
+}
+    /* .tns-item {
         img {
             display: block;
             margin: 0 auto;
@@ -32,12 +37,12 @@
     .tns-nav {
         button {
             background-color: red;
-        }
+        } */
         /* .tns-nav-active {
             width: 15px;
             height: 15px;
             border-radius: 50%;
         } */
-    }
+    
 
 }
